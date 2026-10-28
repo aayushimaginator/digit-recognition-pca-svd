@@ -26,8 +26,10 @@ Confusion matrices: [PCA](best_digit_pca_confusion.png) | [SVD](best_digit_svd_c
 Note: `quick_digits.py` compares component counts directly on test accuracy, which is mild test-set tuning. Fine for a demo; `digits.py` is the cleaner experiment.
 
 ## Run
+```bash
 pip install scikit-learn matplotlib joblib
 python digits.py
+```
 
 Trained `.pkl` models are not committed; running the script regenerates them.
 
